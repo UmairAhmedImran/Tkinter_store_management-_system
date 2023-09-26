@@ -1,0 +1,22 @@
+CREATE TABLE "inventory" (
+	"id"	INTEGER,
+	"name"	TEXT,
+	"stock"	INTEGER,
+	"cp"	INTEGER,
+	"sp"	INTEGER,
+	"totalcp"	INTEGER,
+	"totalsp"	INTEGER,
+	"assumed_profit"	INTEGER,
+	"vendor"	TEXT,
+	"vendor_phoneno"	INTEGER,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
+CREATE TABLE "transactions" (
+	"id"	INTEGER,
+	"product_name"	TEXT,
+	"quantity"	INTEGER,
+	"amount"	INTEGER,
+	"date"	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);

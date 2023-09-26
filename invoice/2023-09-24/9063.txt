@@ -1,0 +1,14 @@
+				Micheal General Store
+				London, UK
+				99999999999
+				Invoice
+				2023-09-24
+
+
+			----------------------------------------------
+			SN.	Products	Qty	Amount
+			---------------------------------------------
+			1	snicker		2	80.0
+
+			Total: $ 80.0
+			Thanks For Visiting
